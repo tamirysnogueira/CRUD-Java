@@ -1,0 +1,117 @@
+@charset "ISO-8859-1";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter', sans-serif;
+
+    background-color: rgb(36, 36, 36);
+    
+    width: 100%;
+    height: 100vh;
+}
+
+body main {
+    width: 40%;
+    height: 1000px;
+
+    background-color: rgb(212, 212, 212);
+
+    border-radius: 30px;
+
+    filter: drop-shadow(0 0 30px rgba(196, 77, 86, 0.6));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 50px;
+    
+}
+
+body main #account h1 {
+    font-size: 40px;
+
+    margin-bottom: 50px;
+
+}
+
+body main #account h1 strong {
+    color: rgb(212, 51, 51);
+}
+
+body main #form h2 {
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-bottom: 30px;
+}
+
+body main #form #containerInputsText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+body main #form #containerInputsText div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body main #form #containerInputsText label {
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+body main #form #containerInputsText div input {
+    height: 40px;
+
+    padding: 10px;
+
+    font-size: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+}
+
+body main #form #containerInputsText div input:focus {
+    outline: none;
+    border: 1px solid rgb(167, 30, 30);
+
+}
+
+body main #form form #containerButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+body main #form form #containerButton #button {
+    width: 50%;
+    height: 62px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(240, 240, 240);
+    background-color: rgba(196, 1, 17, 0.6);
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
